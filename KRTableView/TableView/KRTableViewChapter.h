@@ -19,6 +19,8 @@
 
 - (UITableViewCell *)cellForRowAtIndexPath:(NSIndexPath *)indexPath sectionIndexInChapter:(NSNumber *)sectionIndexInChapter;
 
+- (void)didSelectRowAtIndexPath:(NSIndexPath *)indexPath sectionIndexInChapter:(NSNumber *)sectionIndexInChapter;
+
 @end
 
 @interface KRTableViewChapter : NSObject <KRTableViewChapterProtocol>
@@ -32,6 +34,8 @@
 @property (nonatomic, assign) SEL heightForRowAtIndexPathSEL;
 
 @property (nonatomic, assign) SEL cellForRowAtIndexPathSEL;
+
+@property (nonatomic, assign) SEL didSelectRowAtIndexPathSEL;
 
 - (instancetype)initWithTarget:(id)target;
 

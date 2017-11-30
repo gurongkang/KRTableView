@@ -69,6 +69,12 @@
     return height;
 }
 
+- (void)didSelectRowAtIndexPath:(NSIndexPath *)indexPath sectionIndexInChapter:(NSNumber *)sectionIndexInChapter {
+    if (self.target && self.didSelectRowAtIndexPathSEL) {
+        [self.target performSelector:self.didSelectRowAtIndexPathSEL withObject:indexPath withObject:sectionIndexInChapter];
+    }
+}
+
 #pragma clang diagnostic pop
 
 @end

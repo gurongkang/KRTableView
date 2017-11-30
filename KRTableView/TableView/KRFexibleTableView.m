@@ -134,4 +134,9 @@
     return height;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    id<KRTableViewChapterProtocol> chapter = [self chapterForSectionIndex:indexPath.section];
+    [chapter didSelectRowAtIndexPath:indexPath sectionIndexInChapter:@([self sectionIndexInChapter:indexPath.section])];
+}
+
 @end

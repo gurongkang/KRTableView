@@ -51,6 +51,10 @@
     return @40;
 }
 
+- (void)didSelectRowForTestAtIndexPath:(NSIndexPath *)indexPath sectionIndexInChapter:(NSNumber *)sectionIndex {
+    NSLog(@"---%ld",(long)indexPath.row);
+}
+
 #pragma mark KRFexibleTableViewDataSource
 
 - (NSArray *)kr_fexibleTableViewChapters {
@@ -61,6 +65,7 @@
         chapter.numberOfRowsInSectionSEL = @selector(numberOfRowsForTest:sectionIndexInChapter:);
         chapter.cellForRowAtIndexPathSEL = @selector(cellForTestAtIndexPath:sectionIndexInChapter:);
         chapter.heightForRowAtIndexPathSEL = @selector(heightForTestAtIndexPath:sectionIndexInChapter:);
+        chapter.didSelectRowAtIndexPathSEL = @selector(didSelectRowForTestAtIndexPath:sectionIndexInChapter:);
         [_chapters addObject:chapter];
     }
     return _chapters;
