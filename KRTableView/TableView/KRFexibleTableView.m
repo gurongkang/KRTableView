@@ -7,7 +7,6 @@
 //
 
 #import "KRFexibleTableView.h"
-#import "KRTableViewChapter.h"
 
 @interface KRFexibleTableView()<UITableViewDelegate, UITableViewDataSource>
 
@@ -48,7 +47,7 @@
 
 - (NSArray *)chapters {
     if (self.fexibleTableViewDataSource != nil) {
-        return [self.fexibleTableViewDataSource kr_fexibleTableViewChaters];
+        return [self.fexibleTableViewDataSource kr_fexibleTableViewChapters];
     }
     return [NSMutableArray array];
 }
@@ -62,7 +61,6 @@
                 return chapter;
             }
         }
-        
         count += secionCountInChapter;
     }
     return nil;
@@ -92,7 +90,7 @@
     for (id<KRTableViewChapterProtocol> chapter in self.chapters) {
         count += [chapter numberOfSectionsInChapter];
     }
-    return 0;
+    return count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -101,7 +99,7 @@
 
     count = [chapter numberOfRowsInSection:@(section) sectionIndexInChapter:@([self sectionIndexInChapter:section])];
     
-    return 0;
+    return count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

@@ -6,10 +6,11 @@
 //  Copyright © 2017年 KR. All rights reserved.
 
 #import <UIKit/UIKit.h>
+#import "KRTableViewChapter.h"
 
 @protocol KRFexibleTableViewDataSource<NSObject>
 
-- (NSArray *)kr_fexibleTableViewChaters;
+- (NSArray *)kr_fexibleTableViewChapters;
 
 @end
 
