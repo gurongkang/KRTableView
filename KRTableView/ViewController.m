@@ -11,6 +11,7 @@
 
 @interface ViewController () <KRFexibleTableViewDataSource> {
     NSMutableArray *_chapters;
+    NSArray *_demoArray;
 }
 
 @property (nonatomic, strong) KRFexibleTableView *tableView;
@@ -27,6 +28,8 @@
     [self.view addSubview:self.tableView];
 
     [self registerCell];
+    
+    _demoArray = @[@"Demo1", @"Demo2", @"Demo3"];
 }
 
 - (void)viewWillLayoutSubviews {
@@ -37,13 +40,13 @@
 #pragma mark chapter
 
 - (NSNumber *)numberOfRowsForTest:(NSNumber *)section sectionIndexInChapter:(NSNumber *)sectionIndex {
-    return @3;
+    return @(_demoArray.count);
 }
 
 - (UITableViewCell *)cellForTestAtIndexPath:(NSIndexPath *)indexPath sectionIndexInChapter:(NSNumber *)sectionIndex {
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"kUITableViewCell" forIndexPath:indexPath];
     cell.textLabel.font = [UIFont systemFontOfSize:16];
-    cell.textLabel.text = [NSString stringWithFormat:@"index.row:%ld | index.section:%ld | sectionIndex:%@", (long)indexPath.row, indexPath.section, sectionIndex];
+    cell.textLabel.text = _demoArray[indexPath.row];
     return cell;
 }
 
@@ -82,7 +85,6 @@
         _tableView = [[KRFexibleTableView alloc]init];
         _tableView.fexibleTableViewDataSource = self;
     }
-    
     return _tableView;
 }
 
