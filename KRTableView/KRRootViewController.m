@@ -6,10 +6,11 @@
 //  Copyright © 2017年 KR. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "KRRootViewController.h"
 #import "KRFexibleTableView.h"
+#import "KRSystemTableViewController.h"
 
-@interface ViewController () <KRFexibleTableViewDataSource> {
+@interface KRRootViewController () <KRFexibleTableViewDataSource> {
     NSMutableArray *_chapters;
     NSArray *_demoArray;
 }
@@ -18,7 +19,7 @@
 
 @end
 
-@implementation ViewController
+@implementation KRRootViewController
 
 #pragma mark life
 
@@ -29,7 +30,7 @@
 
     [self registerCell];
     
-    _demoArray = @[@"Demo1", @"Demo2", @"Demo3"];
+    _demoArray = @[@"KRSystemTableViewController 系统写法", @"Demo2", @"Demo3"];
 }
 
 - (void)viewWillLayoutSubviews {
@@ -56,6 +57,10 @@
 
 - (void)didSelectRowForTestAtIndexPath:(NSIndexPath *)indexPath sectionIndexInChapter:(NSNumber *)sectionIndex {
     NSLog(@"---%ld",(long)indexPath.row);
+    if (indexPath.row == 0) {
+        KRSystemTableViewController *systenVC = [[KRSystemTableViewController alloc]init];
+        [self.navigationController pushViewController:systenVC animated:YES];
+    }
 }
 
 #pragma mark KRFexibleTableViewDataSource

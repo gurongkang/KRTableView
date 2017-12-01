@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5426CA331FCECD97001543F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA321FCECD97001543F5 /* AppDelegate.m */; };
-		5426CA361FCECD97001543F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA351FCECD97001543F5 /* ViewController.m */; };
+		5426CA361FCECD97001543F5 /* KRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA351FCECD97001543F5 /* KRRootViewController.m */; };
 		5426CA391FCECD97001543F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5426CA371FCECD97001543F5 /* Main.storyboard */; };
 		5426CA3B1FCECD97001543F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5426CA3A1FCECD97001543F5 /* Assets.xcassets */; };
 		5426CA3E1FCECD97001543F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5426CA3C1FCECD97001543F5 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,15 @@
 		5426CA561FCECD98001543F5 /* KRTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA551FCECD98001543F5 /* KRTableViewUITests.m */; };
 		5426CA6F1FCECE74001543F5 /* KRTableViewChapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA6C1FCECE74001543F5 /* KRTableViewChapter.m */; };
 		5426CA701FCECE74001543F5 /* KRFexibleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA6E1FCECE74001543F5 /* KRFexibleTableView.m */; };
+		54F828181FD187950022C771 /* KRSystemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828171FD187950022C771 /* KRSystemTableViewController.m */; };
+		54F8281C1FD18A140022C771 /* KRHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8281A1FD18A140022C771 /* KRHeadTableViewCell.m */; };
+		54F8281D1FD18A140022C771 /* KRHeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F8281B1FD18A140022C771 /* KRHeadTableViewCell.xib */; };
+		54F828211FD18A320022C771 /* KRBodyNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8281F1FD18A320022C771 /* KRBodyNormalTableViewCell.m */; };
+		54F828221FD18A320022C771 /* KRBodyNormalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828201FD18A320022C771 /* KRBodyNormalTableViewCell.xib */; };
+		54F828291FD18A600022C771 /* KRFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828271FD18A600022C771 /* KRFooterTableViewCell.m */; };
+		54F8282A1FD18A600022C771 /* KRFooterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828281FD18A600022C771 /* KRFooterTableViewCell.xib */; };
+		54F8282F1FD18DF80022C771 /* KRBodySmallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8282D1FD18DF80022C771 /* KRBodySmallTableViewCell.m */; };
+		54F828301FD18DF80022C771 /* KRBodySmallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F8282E1FD18DF80022C771 /* KRBodySmallTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +49,8 @@
 		5426CA2E1FCECD97001543F5 /* KRTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5426CA311FCECD97001543F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5426CA321FCECD97001543F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5426CA341FCECD97001543F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5426CA351FCECD97001543F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5426CA341FCECD97001543F5 /* KRRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRRootViewController.h; sourceTree = "<group>"; };
+		5426CA351FCECD97001543F5 /* KRRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRRootViewController.m; sourceTree = "<group>"; };
 		5426CA381FCECD97001543F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5426CA3A1FCECD97001543F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5426CA3D1FCECD97001543F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +66,20 @@
 		5426CA6C1FCECE74001543F5 /* KRTableViewChapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRTableViewChapter.m; sourceTree = "<group>"; };
 		5426CA6D1FCECE74001543F5 /* KRTableViewChapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRTableViewChapter.h; sourceTree = "<group>"; };
 		5426CA6E1FCECE74001543F5 /* KRFexibleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRFexibleTableView.m; sourceTree = "<group>"; };
+		54F828161FD187950022C771 /* KRSystemTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSystemTableViewController.h; sourceTree = "<group>"; };
+		54F828171FD187950022C771 /* KRSystemTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSystemTableViewController.m; sourceTree = "<group>"; };
+		54F828191FD18A140022C771 /* KRHeadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRHeadTableViewCell.h; sourceTree = "<group>"; };
+		54F8281A1FD18A140022C771 /* KRHeadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRHeadTableViewCell.m; sourceTree = "<group>"; };
+		54F8281B1FD18A140022C771 /* KRHeadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRHeadTableViewCell.xib; sourceTree = "<group>"; };
+		54F8281E1FD18A320022C771 /* KRBodyNormalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRBodyNormalTableViewCell.h; sourceTree = "<group>"; };
+		54F8281F1FD18A320022C771 /* KRBodyNormalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRBodyNormalTableViewCell.m; sourceTree = "<group>"; };
+		54F828201FD18A320022C771 /* KRBodyNormalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRBodyNormalTableViewCell.xib; sourceTree = "<group>"; };
+		54F828261FD18A600022C771 /* KRFooterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRFooterTableViewCell.h; sourceTree = "<group>"; };
+		54F828271FD18A600022C771 /* KRFooterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRFooterTableViewCell.m; sourceTree = "<group>"; };
+		54F828281FD18A600022C771 /* KRFooterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRFooterTableViewCell.xib; sourceTree = "<group>"; };
+		54F8282C1FD18DF80022C771 /* KRBodySmallTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRBodySmallTableViewCell.h; sourceTree = "<group>"; };
+		54F8282D1FD18DF80022C771 /* KRBodySmallTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRBodySmallTableViewCell.m; sourceTree = "<group>"; };
+		54F8282E1FD18DF80022C771 /* KRBodySmallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRBodySmallTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,13 +133,27 @@
 				5426CA6A1FCECE74001543F5 /* TableView */,
 				5426CA311FCECD97001543F5 /* AppDelegate.h */,
 				5426CA321FCECD97001543F5 /* AppDelegate.m */,
-				5426CA341FCECD97001543F5 /* ViewController.h */,
-				5426CA351FCECD97001543F5 /* ViewController.m */,
+				5426CA341FCECD97001543F5 /* KRRootViewController.h */,
+				5426CA351FCECD97001543F5 /* KRRootViewController.m */,
 				5426CA371FCECD97001543F5 /* Main.storyboard */,
 				5426CA3A1FCECD97001543F5 /* Assets.xcassets */,
 				5426CA3C1FCECD97001543F5 /* LaunchScreen.storyboard */,
 				5426CA3F1FCECD97001543F5 /* Info.plist */,
 				5426CA401FCECD97001543F5 /* main.m */,
+				54F828161FD187950022C771 /* KRSystemTableViewController.h */,
+				54F828171FD187950022C771 /* KRSystemTableViewController.m */,
+				54F828191FD18A140022C771 /* KRHeadTableViewCell.h */,
+				54F8281A1FD18A140022C771 /* KRHeadTableViewCell.m */,
+				54F8281B1FD18A140022C771 /* KRHeadTableViewCell.xib */,
+				54F8281E1FD18A320022C771 /* KRBodyNormalTableViewCell.h */,
+				54F8281F1FD18A320022C771 /* KRBodyNormalTableViewCell.m */,
+				54F828201FD18A320022C771 /* KRBodyNormalTableViewCell.xib */,
+				54F8282C1FD18DF80022C771 /* KRBodySmallTableViewCell.h */,
+				54F8282D1FD18DF80022C771 /* KRBodySmallTableViewCell.m */,
+				54F8282E1FD18DF80022C771 /* KRBodySmallTableViewCell.xib */,
+				54F828261FD18A600022C771 /* KRFooterTableViewCell.h */,
+				54F828271FD18A600022C771 /* KRFooterTableViewCell.m */,
+				54F828281FD18A600022C771 /* KRFooterTableViewCell.xib */,
 			);
 			path = KRTableView;
 			sourceTree = "<group>";
@@ -258,6 +295,10 @@
 			files = (
 				5426CA3E1FCECD97001543F5 /* LaunchScreen.storyboard in Resources */,
 				5426CA3B1FCECD97001543F5 /* Assets.xcassets in Resources */,
+				54F8281D1FD18A140022C771 /* KRHeadTableViewCell.xib in Resources */,
+				54F828301FD18DF80022C771 /* KRBodySmallTableViewCell.xib in Resources */,
+				54F8282A1FD18A600022C771 /* KRFooterTableViewCell.xib in Resources */,
+				54F828221FD18A320022C771 /* KRBodyNormalTableViewCell.xib in Resources */,
 				5426CA391FCECD97001543F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,9 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5426CA361FCECD97001543F5 /* ViewController.m in Sources */,
+				5426CA361FCECD97001543F5 /* KRRootViewController.m in Sources */,
 				5426CA411FCECD97001543F5 /* main.m in Sources */,
 				5426CA6F1FCECE74001543F5 /* KRTableViewChapter.m in Sources */,
+				54F828291FD18A600022C771 /* KRFooterTableViewCell.m in Sources */,
+				54F8282F1FD18DF80022C771 /* KRBodySmallTableViewCell.m in Sources */,
+				54F8281C1FD18A140022C771 /* KRHeadTableViewCell.m in Sources */,
+				54F828181FD187950022C771 /* KRSystemTableViewController.m in Sources */,
+				54F828211FD18A320022C771 /* KRBodyNormalTableViewCell.m in Sources */,
 				5426CA701FCECE74001543F5 /* KRFexibleTableView.m in Sources */,
 				5426CA331FCECD97001543F5 /* AppDelegate.m in Sources */,
 			);
