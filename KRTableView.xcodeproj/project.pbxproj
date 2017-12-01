@@ -15,17 +15,18 @@
 		5426CA411FCECD97001543F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA401FCECD97001543F5 /* main.m */; };
 		5426CA4B1FCECD98001543F5 /* KRTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA4A1FCECD98001543F5 /* KRTableViewTests.m */; };
 		5426CA561FCECD98001543F5 /* KRTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA551FCECD98001543F5 /* KRTableViewUITests.m */; };
-		5426CA6F1FCECE74001543F5 /* KRTableViewChapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA6C1FCECE74001543F5 /* KRTableViewChapter.m */; };
-		5426CA701FCECE74001543F5 /* KRFexibleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA6E1FCECE74001543F5 /* KRFexibleTableView.m */; };
-		54F828181FD187950022C771 /* KRSystemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828171FD187950022C771 /* KRSystemTableViewController.m */; };
-		54F8281C1FD18A140022C771 /* KRHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8281A1FD18A140022C771 /* KRHeadTableViewCell.m */; };
-		54F8281D1FD18A140022C771 /* KRHeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F8281B1FD18A140022C771 /* KRHeadTableViewCell.xib */; };
-		54F828211FD18A320022C771 /* KRBodyNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8281F1FD18A320022C771 /* KRBodyNormalTableViewCell.m */; };
-		54F828221FD18A320022C771 /* KRBodyNormalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828201FD18A320022C771 /* KRBodyNormalTableViewCell.xib */; };
-		54F828291FD18A600022C771 /* KRFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828271FD18A600022C771 /* KRFooterTableViewCell.m */; };
-		54F8282A1FD18A600022C771 /* KRFooterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828281FD18A600022C771 /* KRFooterTableViewCell.xib */; };
-		54F8282F1FD18DF80022C771 /* KRBodySmallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8282D1FD18DF80022C771 /* KRBodySmallTableViewCell.m */; };
-		54F828301FD18DF80022C771 /* KRBodySmallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F8282E1FD18DF80022C771 /* KRBodySmallTableViewCell.xib */; };
+		54F8283E1FD19B300022C771 /* KRFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828331FD19B300022C771 /* KRFooterTableViewCell.m */; };
+		54F8283F1FD19B300022C771 /* KRBodySmallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828341FD19B300022C771 /* KRBodySmallTableViewCell.xib */; };
+		54F828401FD19B300022C771 /* KRBodySmallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828361FD19B300022C771 /* KRBodySmallTableViewCell.m */; };
+		54F828411FD19B300022C771 /* KRBodyNormalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828371FD19B300022C771 /* KRBodyNormalTableViewCell.xib */; };
+		54F828421FD19B300022C771 /* KRHeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828381FD19B300022C771 /* KRHeadTableViewCell.xib */; };
+		54F828431FD19B300022C771 /* KRBodyNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828391FD19B300022C771 /* KRBodyNormalTableViewCell.m */; };
+		54F828441FD19B300022C771 /* KRFooterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F8283A1FD19B300022C771 /* KRFooterTableViewCell.xib */; };
+		54F828451FD19B300022C771 /* KRHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8283B1FD19B300022C771 /* KRHeadTableViewCell.m */; };
+		54F8284B1FD19B5E0022C771 /* KRTableViewChapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828481FD19B5E0022C771 /* KRTableViewChapter.m */; };
+		54F8284C1FD19B5E0022C771 /* KRFexibleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8284A1FD19B5E0022C771 /* KRFexibleTableView.m */; };
+		54F828501FD19CA20022C771 /* KRSystemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8284E1FD19CA20022C771 /* KRSystemTableViewController.m */; };
+		54F828531FD19CE80022C771 /* KRRewirteSystenTablViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828521FD19CE80022C771 /* KRRewirteSystenTablViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,24 +63,26 @@
 		5426CA511FCECD98001543F5 /* KRTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5426CA551FCECD98001543F5 /* KRTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRTableViewUITests.m; sourceTree = "<group>"; };
 		5426CA571FCECD98001543F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5426CA6B1FCECE74001543F5 /* KRFexibleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRFexibleTableView.h; sourceTree = "<group>"; };
-		5426CA6C1FCECE74001543F5 /* KRTableViewChapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRTableViewChapter.m; sourceTree = "<group>"; };
-		5426CA6D1FCECE74001543F5 /* KRTableViewChapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRTableViewChapter.h; sourceTree = "<group>"; };
-		5426CA6E1FCECE74001543F5 /* KRFexibleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRFexibleTableView.m; sourceTree = "<group>"; };
-		54F828161FD187950022C771 /* KRSystemTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSystemTableViewController.h; sourceTree = "<group>"; };
-		54F828171FD187950022C771 /* KRSystemTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSystemTableViewController.m; sourceTree = "<group>"; };
-		54F828191FD18A140022C771 /* KRHeadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRHeadTableViewCell.h; sourceTree = "<group>"; };
-		54F8281A1FD18A140022C771 /* KRHeadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRHeadTableViewCell.m; sourceTree = "<group>"; };
-		54F8281B1FD18A140022C771 /* KRHeadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRHeadTableViewCell.xib; sourceTree = "<group>"; };
-		54F8281E1FD18A320022C771 /* KRBodyNormalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRBodyNormalTableViewCell.h; sourceTree = "<group>"; };
-		54F8281F1FD18A320022C771 /* KRBodyNormalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRBodyNormalTableViewCell.m; sourceTree = "<group>"; };
-		54F828201FD18A320022C771 /* KRBodyNormalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRBodyNormalTableViewCell.xib; sourceTree = "<group>"; };
-		54F828261FD18A600022C771 /* KRFooterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRFooterTableViewCell.h; sourceTree = "<group>"; };
-		54F828271FD18A600022C771 /* KRFooterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRFooterTableViewCell.m; sourceTree = "<group>"; };
-		54F828281FD18A600022C771 /* KRFooterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRFooterTableViewCell.xib; sourceTree = "<group>"; };
-		54F8282C1FD18DF80022C771 /* KRBodySmallTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRBodySmallTableViewCell.h; sourceTree = "<group>"; };
-		54F8282D1FD18DF80022C771 /* KRBodySmallTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRBodySmallTableViewCell.m; sourceTree = "<group>"; };
-		54F8282E1FD18DF80022C771 /* KRBodySmallTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRBodySmallTableViewCell.xib; sourceTree = "<group>"; };
+		54F828321FD19B300022C771 /* KRHeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRHeadTableViewCell.h; sourceTree = "<group>"; };
+		54F828331FD19B300022C771 /* KRFooterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRFooterTableViewCell.m; sourceTree = "<group>"; };
+		54F828341FD19B300022C771 /* KRBodySmallTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KRBodySmallTableViewCell.xib; sourceTree = "<group>"; };
+		54F828351FD19B300022C771 /* KRBodyNormalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRBodyNormalTableViewCell.h; sourceTree = "<group>"; };
+		54F828361FD19B300022C771 /* KRBodySmallTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRBodySmallTableViewCell.m; sourceTree = "<group>"; };
+		54F828371FD19B300022C771 /* KRBodyNormalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KRBodyNormalTableViewCell.xib; sourceTree = "<group>"; };
+		54F828381FD19B300022C771 /* KRHeadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KRHeadTableViewCell.xib; sourceTree = "<group>"; };
+		54F828391FD19B300022C771 /* KRBodyNormalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRBodyNormalTableViewCell.m; sourceTree = "<group>"; };
+		54F8283A1FD19B300022C771 /* KRFooterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KRFooterTableViewCell.xib; sourceTree = "<group>"; };
+		54F8283B1FD19B300022C771 /* KRHeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRHeadTableViewCell.m; sourceTree = "<group>"; };
+		54F8283C1FD19B300022C771 /* KRFooterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRFooterTableViewCell.h; sourceTree = "<group>"; };
+		54F8283D1FD19B300022C771 /* KRBodySmallTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRBodySmallTableViewCell.h; sourceTree = "<group>"; };
+		54F828471FD19B5E0022C771 /* KRFexibleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRFexibleTableView.h; sourceTree = "<group>"; };
+		54F828481FD19B5E0022C771 /* KRTableViewChapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRTableViewChapter.m; sourceTree = "<group>"; };
+		54F828491FD19B5E0022C771 /* KRTableViewChapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRTableViewChapter.h; sourceTree = "<group>"; };
+		54F8284A1FD19B5E0022C771 /* KRFexibleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRFexibleTableView.m; sourceTree = "<group>"; };
+		54F8284E1FD19CA20022C771 /* KRSystemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRSystemTableViewController.m; sourceTree = "<group>"; };
+		54F8284F1FD19CA20022C771 /* KRSystemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRSystemTableViewController.h; sourceTree = "<group>"; };
+		54F828511FD19CE80022C771 /* KRRewirteSystenTablViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRRewirteSystenTablViewController.h; sourceTree = "<group>"; };
+		54F828521FD19CE80022C771 /* KRRewirteSystenTablViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRRewirteSystenTablViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +133,9 @@
 		5426CA301FCECD97001543F5 /* KRTableView */ = {
 			isa = PBXGroup;
 			children = (
-				5426CA6A1FCECE74001543F5 /* TableView */,
+				54F828461FD19B5E0022C771 /* KRTableView */,
+				54F8284D1FD19CA20022C771 /* TestViewController */,
+				54F828311FD19B300022C771 /* TestCell */,
 				5426CA311FCECD97001543F5 /* AppDelegate.h */,
 				5426CA321FCECD97001543F5 /* AppDelegate.m */,
 				5426CA341FCECD97001543F5 /* KRRootViewController.h */,
@@ -140,20 +145,6 @@
 				5426CA3C1FCECD97001543F5 /* LaunchScreen.storyboard */,
 				5426CA3F1FCECD97001543F5 /* Info.plist */,
 				5426CA401FCECD97001543F5 /* main.m */,
-				54F828161FD187950022C771 /* KRSystemTableViewController.h */,
-				54F828171FD187950022C771 /* KRSystemTableViewController.m */,
-				54F828191FD18A140022C771 /* KRHeadTableViewCell.h */,
-				54F8281A1FD18A140022C771 /* KRHeadTableViewCell.m */,
-				54F8281B1FD18A140022C771 /* KRHeadTableViewCell.xib */,
-				54F8281E1FD18A320022C771 /* KRBodyNormalTableViewCell.h */,
-				54F8281F1FD18A320022C771 /* KRBodyNormalTableViewCell.m */,
-				54F828201FD18A320022C771 /* KRBodyNormalTableViewCell.xib */,
-				54F8282C1FD18DF80022C771 /* KRBodySmallTableViewCell.h */,
-				54F8282D1FD18DF80022C771 /* KRBodySmallTableViewCell.m */,
-				54F8282E1FD18DF80022C771 /* KRBodySmallTableViewCell.xib */,
-				54F828261FD18A600022C771 /* KRFooterTableViewCell.h */,
-				54F828271FD18A600022C771 /* KRFooterTableViewCell.m */,
-				54F828281FD18A600022C771 /* KRFooterTableViewCell.xib */,
 			);
 			path = KRTableView;
 			sourceTree = "<group>";
@@ -176,15 +167,45 @@
 			path = KRTableViewUITests;
 			sourceTree = "<group>";
 		};
-		5426CA6A1FCECE74001543F5 /* TableView */ = {
+		54F828311FD19B300022C771 /* TestCell */ = {
 			isa = PBXGroup;
 			children = (
-				5426CA6D1FCECE74001543F5 /* KRTableViewChapter.h */,
-				5426CA6C1FCECE74001543F5 /* KRTableViewChapter.m */,
-				5426CA6B1FCECE74001543F5 /* KRFexibleTableView.h */,
-				5426CA6E1FCECE74001543F5 /* KRFexibleTableView.m */,
+				54F828321FD19B300022C771 /* KRHeadTableViewCell.h */,
+				54F828331FD19B300022C771 /* KRFooterTableViewCell.m */,
+				54F828341FD19B300022C771 /* KRBodySmallTableViewCell.xib */,
+				54F828351FD19B300022C771 /* KRBodyNormalTableViewCell.h */,
+				54F828361FD19B300022C771 /* KRBodySmallTableViewCell.m */,
+				54F828371FD19B300022C771 /* KRBodyNormalTableViewCell.xib */,
+				54F828381FD19B300022C771 /* KRHeadTableViewCell.xib */,
+				54F828391FD19B300022C771 /* KRBodyNormalTableViewCell.m */,
+				54F8283A1FD19B300022C771 /* KRFooterTableViewCell.xib */,
+				54F8283B1FD19B300022C771 /* KRHeadTableViewCell.m */,
+				54F8283C1FD19B300022C771 /* KRFooterTableViewCell.h */,
+				54F8283D1FD19B300022C771 /* KRBodySmallTableViewCell.h */,
 			);
-			path = TableView;
+			path = TestCell;
+			sourceTree = "<group>";
+		};
+		54F828461FD19B5E0022C771 /* KRTableView */ = {
+			isa = PBXGroup;
+			children = (
+				54F828471FD19B5E0022C771 /* KRFexibleTableView.h */,
+				54F828481FD19B5E0022C771 /* KRTableViewChapter.m */,
+				54F828491FD19B5E0022C771 /* KRTableViewChapter.h */,
+				54F8284A1FD19B5E0022C771 /* KRFexibleTableView.m */,
+			);
+			path = KRTableView;
+			sourceTree = "<group>";
+		};
+		54F8284D1FD19CA20022C771 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54F8284F1FD19CA20022C771 /* KRSystemTableViewController.h */,
+				54F8284E1FD19CA20022C771 /* KRSystemTableViewController.m */,
+				54F828511FD19CE80022C771 /* KRRewirteSystenTablViewController.h */,
+				54F828521FD19CE80022C771 /* KRRewirteSystenTablViewController.m */,
+			);
+			path = TestViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,12 +314,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F8283F1FD19B300022C771 /* KRBodySmallTableViewCell.xib in Resources */,
 				5426CA3E1FCECD97001543F5 /* LaunchScreen.storyboard in Resources */,
+				54F828441FD19B300022C771 /* KRFooterTableViewCell.xib in Resources */,
+				54F828421FD19B300022C771 /* KRHeadTableViewCell.xib in Resources */,
 				5426CA3B1FCECD97001543F5 /* Assets.xcassets in Resources */,
-				54F8281D1FD18A140022C771 /* KRHeadTableViewCell.xib in Resources */,
-				54F828301FD18DF80022C771 /* KRBodySmallTableViewCell.xib in Resources */,
-				54F8282A1FD18A600022C771 /* KRFooterTableViewCell.xib in Resources */,
-				54F828221FD18A320022C771 /* KRBodyNormalTableViewCell.xib in Resources */,
+				54F828411FD19B300022C771 /* KRBodyNormalTableViewCell.xib in Resources */,
 				5426CA391FCECD97001543F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,15 +345,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F8284C1FD19B5E0022C771 /* KRFexibleTableView.m in Sources */,
+				54F8283E1FD19B300022C771 /* KRFooterTableViewCell.m in Sources */,
 				5426CA361FCECD97001543F5 /* KRRootViewController.m in Sources */,
+				54F828501FD19CA20022C771 /* KRSystemTableViewController.m in Sources */,
+				54F8284B1FD19B5E0022C771 /* KRTableViewChapter.m in Sources */,
+				54F828531FD19CE80022C771 /* KRRewirteSystenTablViewController.m in Sources */,
+				54F828451FD19B300022C771 /* KRHeadTableViewCell.m in Sources */,
 				5426CA411FCECD97001543F5 /* main.m in Sources */,
-				5426CA6F1FCECE74001543F5 /* KRTableViewChapter.m in Sources */,
-				54F828291FD18A600022C771 /* KRFooterTableViewCell.m in Sources */,
-				54F8282F1FD18DF80022C771 /* KRBodySmallTableViewCell.m in Sources */,
-				54F8281C1FD18A140022C771 /* KRHeadTableViewCell.m in Sources */,
-				54F828181FD187950022C771 /* KRSystemTableViewController.m in Sources */,
-				54F828211FD18A320022C771 /* KRBodyNormalTableViewCell.m in Sources */,
-				5426CA701FCECE74001543F5 /* KRFexibleTableView.m in Sources */,
+				54F828401FD19B300022C771 /* KRBodySmallTableViewCell.m in Sources */,
+				54F828431FD19B300022C771 /* KRBodyNormalTableViewCell.m in Sources */,
 				5426CA331FCECD97001543F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

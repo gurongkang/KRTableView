@@ -9,6 +9,7 @@
 #import "KRRootViewController.h"
 #import "KRFexibleTableView.h"
 #import "KRSystemTableViewController.h"
+#import "KRRewirteSystenTablViewController.h"
 
 @interface KRRootViewController () <KRFexibleTableViewDataSource> {
     NSMutableArray *_chapters;
@@ -30,7 +31,7 @@
 
     [self registerCell];
     
-    _demoArray = @[@"KRSystemTableViewController 系统写法", @"Demo2", @"Demo3"];
+    _demoArray = @[@"KRSystemTableViewController 系统写法", @"KRRewirteSystenTablViewController 重写系统", @"Demo3"];
 }
 
 - (void)viewWillLayoutSubviews {
@@ -61,6 +62,11 @@
         KRSystemTableViewController *systenVC = [[KRSystemTableViewController alloc]init];
         [self.navigationController pushViewController:systenVC animated:YES];
     }
+    
+    if (indexPath.row == 1) {
+        KRRewirteSystenTablViewController *rewriteVC = [[KRRewirteSystenTablViewController alloc]init];
+        [self.navigationController pushViewController:rewriteVC animated:YES];
+    }
 }
 
 #pragma mark KRFexibleTableViewDataSource
@@ -79,11 +85,11 @@
     return _chapters;
 }
 
+#pragma mark tableView
+
 - (void)registerCell {
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"kUITableViewCell"];
 }
-
-#pragma mark lazy
 
 - (KRFexibleTableView *)tableView {
     if (_tableView == nil) {

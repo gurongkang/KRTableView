@@ -32,7 +32,7 @@ static  NSString *kKRFooterTableViewCell = @"KRFooterTableViewCell";
     
     [self.view addSubview:self.tableView];
     
-    [self registerTableViewCell];
+    [self registerCell];
 }
 
 - (void)viewWillLayoutSubviews {
@@ -94,10 +94,9 @@ static  NSString *kKRFooterTableViewCell = @"KRFooterTableViewCell";
     return cellHeight;
 }
 
-
 #pragma mark tableView
 
-- (void)registerTableViewCell {
+- (void)registerCell {
     UINib *nib = [UINib nibWithNibName:kKRHeadTableViewCell bundle:nil];
     [self.tableView registerNib:nib forCellReuseIdentifier:kKRHeadTableViewCell];
     
