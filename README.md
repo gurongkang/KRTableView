@@ -16,7 +16,7 @@
 
 UITableView是由Section 构成，每个Section由若干个UITableViewCell构成，如图所示。
 
-![example -w300](https://github.com/CoderCoderRK/KRTableView/raw/master/images/example.png)
+![example](https://github.com/CoderCoderRK/KRTableView/raw/master/images/example.png)
 
 UITabableView通过实现代理方法 UITableViewDataSource UITableViewDelegate 来获取 Section、UITableViewCell，系统的方法很容易写出大量的if else 判断，导致代码逻辑性极差，维护成本极高
 
@@ -81,7 +81,7 @@ UITabableView通过实现代理方法 UITableViewDataSource UITableViewDelegate 
 
 封装KRTableViewChapter 对象，比Section更大一些，可以包含若干Section。其中有相关属性如下图所示
 
-![chapter -w300](https://github.com/CoderCoderRK/KRTableView/raw/master/images/chapter.png)
+![chapter](https://github.com/CoderCoderRK/KRTableView/raw/master/images/chapter.png)
 
 ```objc
 #import <Foundation/Foundation.h>
@@ -125,7 +125,7 @@ UITabableView通过实现代理方法 UITableViewDataSource UITableViewDelegate 
 
 最终UITablView由一组存放KRTableViewChapter的数组描述，这样的好处是可以大量减少if else判断，代码清晰，也便于维护。在App开发中UITableView的改动是非常频繁的。if else多了容易出错。通过数组来进行维护，可以方便的改变顺序，产品让去掉某个cell或者更换的时候非常方便。还可把KRTableViewChapter抽取出来封装成常用的模块，比如分割块等。
 
-![tableView -w300](https://github.com/CoderCoderRK/KRTableView/raw/master/images/tableView.png)
+![tableView](https://github.com/CoderCoderRK/KRTableView/raw/master/images/tableView.png)
 
 最终代码见KRRewirteSystenTablViewController。
 
