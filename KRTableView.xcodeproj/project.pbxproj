@@ -190,9 +190,9 @@
 			isa = PBXGroup;
 			children = (
 				54F828471FD19B5E0022C771 /* KRFexibleTableView.h */,
-				54F828481FD19B5E0022C771 /* KRTableViewChapter.m */,
-				54F828491FD19B5E0022C771 /* KRTableViewChapter.h */,
 				54F8284A1FD19B5E0022C771 /* KRFexibleTableView.m */,
+				54F828491FD19B5E0022C771 /* KRTableViewChapter.h */,
+				54F828481FD19B5E0022C771 /* KRTableViewChapter.m */,
 			);
 			path = KRTableView;
 			sourceTree = "<group>";
