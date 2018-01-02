@@ -15,6 +15,8 @@
 		5426CA411FCECD97001543F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA401FCECD97001543F5 /* main.m */; };
 		5426CA4B1FCECD98001543F5 /* KRTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA4A1FCECD98001543F5 /* KRTableViewTests.m */; };
 		5426CA561FCECD98001543F5 /* KRTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5426CA551FCECD98001543F5 /* KRTableViewUITests.m */; };
+		546DA3BB1FFB92940050A9D6 /* KRRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DA3BA1FFB92940050A9D6 /* KRRefreshViewController.m */; };
+		548C3E421FFBC0C400E94446 /* KRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548C3E411FFBC0C400E94446 /* KRTableViewController.m */; };
 		54F8283E1FD19B300022C771 /* KRFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828331FD19B300022C771 /* KRFooterTableViewCell.m */; };
 		54F8283F1FD19B300022C771 /* KRBodySmallTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F828341FD19B300022C771 /* KRBodySmallTableViewCell.xib */; };
 		54F828401FD19B300022C771 /* KRBodySmallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828361FD19B300022C771 /* KRBodySmallTableViewCell.m */; };
@@ -27,6 +29,7 @@
 		54F8284C1FD19B5E0022C771 /* KRFexibleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8284A1FD19B5E0022C771 /* KRFexibleTableView.m */; };
 		54F828501FD19CA20022C771 /* KRSystemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F8284E1FD19CA20022C771 /* KRSystemTableViewController.m */; };
 		54F828531FD19CE80022C771 /* KRRewirteSystenTablViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F828521FD19CE80022C771 /* KRRewirteSystenTablViewController.m */; };
+		EF5D51F18A0008F862CFE1C5 /* libPods-KRTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D49E81BB5EE9C6CA1C4BF4 /* libPods-KRTableView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CF1AC51E96523B590E51B43 /* Pods-KRTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRTableView/Pods-KRTableView.debug.xcconfig"; sourceTree = "<group>"; };
 		5426CA2E1FCECD97001543F5 /* KRTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5426CA311FCECD97001543F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5426CA321FCECD97001543F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +67,10 @@
 		5426CA511FCECD98001543F5 /* KRTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5426CA551FCECD98001543F5 /* KRTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRTableViewUITests.m; sourceTree = "<group>"; };
 		5426CA571FCECD98001543F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546DA3B91FFB92940050A9D6 /* KRRefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRRefreshViewController.h; sourceTree = "<group>"; };
+		546DA3BA1FFB92940050A9D6 /* KRRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRRefreshViewController.m; sourceTree = "<group>"; };
+		548C3E401FFBC0C400E94446 /* KRTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRTableViewController.h; sourceTree = "<group>"; };
+		548C3E411FFBC0C400E94446 /* KRTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRTableViewController.m; sourceTree = "<group>"; };
 		54F828321FD19B300022C771 /* KRHeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRHeadTableViewCell.h; sourceTree = "<group>"; };
 		54F828331FD19B300022C771 /* KRFooterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRFooterTableViewCell.m; sourceTree = "<group>"; };
 		54F828341FD19B300022C771 /* KRBodySmallTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KRBodySmallTableViewCell.xib; sourceTree = "<group>"; };
@@ -83,6 +91,8 @@
 		54F8284F1FD19CA20022C771 /* KRSystemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRSystemTableViewController.h; sourceTree = "<group>"; };
 		54F828511FD19CE80022C771 /* KRRewirteSystenTablViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRRewirteSystenTablViewController.h; sourceTree = "<group>"; };
 		54F828521FD19CE80022C771 /* KRRewirteSystenTablViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRRewirteSystenTablViewController.m; sourceTree = "<group>"; };
+		A3D49E81BB5EE9C6CA1C4BF4 /* libPods-KRTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KRTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA746FC3835FBE2F903B94B6 /* Pods-KRTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRTableView/Pods-KRTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5D51F18A0008F862CFE1C5 /* libPods-KRTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F5638F80029FA07D33F37B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CF1AC51E96523B590E51B43 /* Pods-KRTableView.debug.xcconfig */,
+				FA746FC3835FBE2F903B94B6 /* Pods-KRTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5426CA251FCECD97001543F5 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +137,8 @@
 				5426CA491FCECD98001543F5 /* KRTableViewTests */,
 				5426CA541FCECD98001543F5 /* KRTableViewUITests */,
 				5426CA2F1FCECD97001543F5 /* Products */,
+				00F5638F80029FA07D33F37B /* Pods */,
+				5A3FAA279664C32EF8F401C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +215,10 @@
 				54F8284A1FD19B5E0022C771 /* KRFexibleTableView.m */,
 				54F828491FD19B5E0022C771 /* KRTableViewChapter.h */,
 				54F828481FD19B5E0022C771 /* KRTableViewChapter.m */,
+				546DA3B91FFB92940050A9D6 /* KRRefreshViewController.h */,
+				546DA3BA1FFB92940050A9D6 /* KRRefreshViewController.m */,
+				548C3E401FFBC0C400E94446 /* KRTableViewController.h */,
+				548C3E411FFBC0C400E94446 /* KRTableViewController.m */,
 			);
 			path = KRTableView;
 			sourceTree = "<group>";
@@ -208,6 +234,14 @@
 			path = TestViewController;
 			sourceTree = "<group>";
 		};
+		5A3FAA279664C32EF8F401C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D49E81BB5EE9C6CA1C4BF4 /* libPods-KRTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5426CA5A1FCECD98001543F5 /* Build configuration list for PBXNativeTarget "KRTableView" */;
 			buildPhases = (
+				E314C36870657A62AA1F8D47 /* [CP] Check Pods Manifest.lock */,
 				5426CA2A1FCECD97001543F5 /* Sources */,
 				5426CA2B1FCECD97001543F5 /* Frameworks */,
 				5426CA2C1FCECD97001543F5 /* Resources */,
+				EA4BA8F44E14EE08C086C70C /* [CP] Embed Pods Frameworks */,
+				DB46DF5D3917CC5603771249 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -340,6 +377,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DB46DF5D3917CC5603771249 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRTableView/Pods-KRTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E314C36870657A62AA1F8D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4BA8F44E14EE08C086C70C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRTableView/Pods-KRTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5426CA2A1FCECD97001543F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -348,12 +433,14 @@
 				54F8284C1FD19B5E0022C771 /* KRFexibleTableView.m in Sources */,
 				54F8283E1FD19B300022C771 /* KRFooterTableViewCell.m in Sources */,
 				5426CA361FCECD97001543F5 /* KRRootViewController.m in Sources */,
+				546DA3BB1FFB92940050A9D6 /* KRRefreshViewController.m in Sources */,
 				54F828501FD19CA20022C771 /* KRSystemTableViewController.m in Sources */,
 				54F8284B1FD19B5E0022C771 /* KRTableViewChapter.m in Sources */,
 				54F828531FD19CE80022C771 /* KRRewirteSystenTablViewController.m in Sources */,
 				54F828451FD19B300022C771 /* KRHeadTableViewCell.m in Sources */,
 				5426CA411FCECD97001543F5 /* main.m in Sources */,
 				54F828401FD19B300022C771 /* KRBodySmallTableViewCell.m in Sources */,
+				548C3E421FFBC0C400E94446 /* KRTableViewController.m in Sources */,
 				54F828431FD19B300022C771 /* KRBodyNormalTableViewCell.m in Sources */,
 				5426CA331FCECD97001543F5 /* AppDelegate.m in Sources */,
 			);
@@ -516,6 +603,7 @@
 		};
 		5426CA5B1FCECD98001543F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF1AC51E96523B590E51B43 /* Pods-KRTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +617,7 @@
 		};
 		5426CA5C1FCECD98001543F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA746FC3835FBE2F903B94B6 /* Pods-KRTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

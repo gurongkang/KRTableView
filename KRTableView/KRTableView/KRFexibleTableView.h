@@ -16,6 +16,8 @@
 
 @interface KRFexibleTableView : UITableView
 
+@property (nonatomic, assign) BOOL isAppendTop;
+
 @property (nonatomic, weak) id <KRFexibleTableViewDataSource> fexibleTableViewDataSource;
 
 @end
