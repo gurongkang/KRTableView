@@ -52,10 +52,6 @@
     }
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
 - (BOOL)canApppend {
     return NO;
 }
@@ -68,54 +64,32 @@
     return NO;
 }
 
-- (void)closeAppend {
+- (void)endUpdateRefreshing {
+    [self.tableView.mj_header endRefreshing];
+}
+
+- (void)endAppendRefreshing {
     [self.tableView.mj_footer endRefreshing];
 }
 
-- (void)closeTopAppend {
+- (void)endTopAppendRefreshing {
     _activityHeadView.hidden = YES;
     [_activityView stopAnimating];
     _isAppendToping = NO;
-}
-
-- (void)hideTopAppend {
-    self.tableView.tableHeaderView = nil;
-    _isAppendToping = YES;
-}
-
-- (void)hideAppend {
-    [self.tableView.mj_footer removeFromSuperview];
-    self.tableView.mj_footer = nil;
-}
-
-- (void)showAppend {
-    if ([self canApppend]) {
-        self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(triggerAppend)];
-    }
-}
-
-- (void)closeUpdate {
-    [self.tableView.mj_header endRefreshing];
 }
 
 -(void)triggerAppend {
     
 }
 
-- (MJRefreshHeader *)refreshHeaderView {
-    return nil;
-}
-
 -(void)triggerUpdate {
-    if ([self canApppend]) {
-        if (self.tableView.mj_footer == nil) {
-            self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(triggerAppend)];
-        }
-    }
 }
 
 - (void)triggerTopAppend {
-    
+}
+
+- (MJRefreshHeader *)refreshHeaderView {
+    return nil;
 }
 
 #pragma mark lazy

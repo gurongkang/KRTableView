@@ -36,28 +36,17 @@
 /**
  关闭刷新
  */
-- (void)closeUpdate;
+- (void)endUpdateRefreshing;
 
 /**
  关闭加载
  */
-- (void)closeAppend;
+- (void)endAppendRefreshing;
 
 /**
  关闭顶部加载更多
  */
-- (void)closeTopAppend;
-
-
-/**
- 显示加载更多
- */
-- (void)showAppend;
-
-/**
- 隐藏加载更多
- */
-- (void)hideAppend;
+- (void)endTopAppendRefreshing;
 
 /**
  
@@ -70,6 +59,11 @@
  */
 - (void)triggerUpdate;
 
+/**
+ 上提顶部加载更多
+ */
+- (void)triggerTopAppend;
+
 
 /**
  重写下拉刷新组件
@@ -78,8 +72,4 @@
  */
 - (MJRefreshHeader *)refreshHeaderView;
 
-/**
- 上提顶部加载更多
- */
-- (void)triggerTopAppend;
 @end
