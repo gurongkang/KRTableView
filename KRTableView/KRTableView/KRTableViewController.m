@@ -10,7 +10,9 @@
 
 #define kKRTableViewSeperatorCell @"KRTableViewSeperatorCell"
 
-@interface KRTableViewController () <KRFexibleTableViewDataSource>
+@interface KRTableViewController ()  {
+    KRFexibleTableView *_tableView;
+}
 
 @end
 
@@ -30,7 +32,7 @@
 
 #pragma mark 业务方法
 
--(NSArray *)kr_fexibleTableViewChapters {
+- (NSArray *)kr_fexibleTableViewChapters {
     return [NSArray array];
 }
 

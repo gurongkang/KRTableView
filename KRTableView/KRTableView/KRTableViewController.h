@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "KRFexibleTableView.h"
 
-@interface KRTableViewController : UIViewController
+@interface KRTableViewController : UIViewController <KRFexibleTableViewDataSource>
 
-@property (nonatomic, strong) KRFexibleTableView *tableView;
+@property (nonatomic, readonly, strong) KRFexibleTableView *tableView;
 @property (nonatomic, strong) KRTableViewChapter *splitSection;
 
 /**
@@ -25,5 +25,12 @@
  注册TableViewCell
  */
 - (void)registerTableViewCell;
+
+/**
+ 数据源
+
+ @return 数据源
+ */
+- (NSArray *)kr_fexibleTableViewChapters;
 
 @end
