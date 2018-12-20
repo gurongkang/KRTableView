@@ -89,7 +89,7 @@
             return section - count;
         }
         
-        count += [chapter numberOfSectionsInChapter];
+        count += [tempChapter numberOfSectionsInChapter];
     }
     
     return section;
